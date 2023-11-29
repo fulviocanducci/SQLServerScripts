@@ -134,6 +134,9 @@ FROM  SalesLT.Product
 ORDER BY Product
 
 
+SELECT Customer.*, CustomerAddress.CustomerID FROM SalesLT.Customer, SalesLT.CustomerAddress
+WHERE Customer.CustomerID = CustomerAddress.CustomerID
+
 
 
 
